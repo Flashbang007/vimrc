@@ -6,7 +6,7 @@ set writebackup
 " Sets how many lines of history VIM has to remember
 set history=700
 " Set 7 lines to the cursor - when moving vertically using j/k
-set so=7
+" set so=7
 "Always show current position
 set ruler
 " Height of the command bar
