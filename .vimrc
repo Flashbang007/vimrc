@@ -57,5 +57,5 @@ imap <c-d> <esc>ddi
 nmap <bs> i<bs><esc>l
 "easy comment in bash scripts
 nmap <leader># ^^i#<esc>
-"get back to last file when using gf
+"get back to last file when using fg
 nmap fg :e#<cr>
