@@ -59,3 +59,10 @@ nmap <bs> i<bs><esc>l
 nmap <leader># ^^i#<esc>
 "get back to last file when using gf
 nmap fg :e#<cr>
+" => Special File rules
+""""""""""""""""""""""""""""""
+autocmd BufNewFile,BufRead *.py set tabstop=4                               " 4 whitespaces for tabs visual presentation
+autocmd BufNewFile,BufRead *.py set shiftwidth=4                            " shift lines by 4 spaces
+autocmd BufNewFile,BufRead *.py set smarttab                                " set tabs for a shifttabs logic
+autocmd BufNewFile,BufRead *.py set expandtab                               " expand tabs into spaces
+autocmd BufNewFile,BufRead *.py set autoindent                              " indent when moving to the next line while writing code
